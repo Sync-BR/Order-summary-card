@@ -1,0 +1,87 @@
+@media (max-width: 900px) {
+    main{
+        height: 70%;
+    }
+
+}
+
+@media (max-width: 768px){
+    body{
+        background-image: url(/src/img/pattern-background-mobile.svg);
+        background-size: cover;
+    }
+    main{
+        width: 80%;
+        height: 100%;
+    }
+    #plano{
+        height: 40%;
+        justify-content: space-evenly;
+    }
+        #plano img{
+            width: 50px;
+            height: 50px;
+        }
+        .plano-infor strong{
+            font-size: 20px;
+        }
+        .plano-infor p{
+            font-size: 18px;
+        }
+    #plano a{
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 375px){
+    body{
+        height: 100vh;
+        display: flex;
+        background-image: url(/src/img/pattern-background-mobile.svg);
+        background-size: cover;
+        background-color: red;
+        margin-top: 10vw;
+
+    }
+    main{
+        width: 90%;
+        height: 90%;
+    }
+    #plano{
+        width:90%;
+        height: 40%;
+        justify-content: space-around;
+    }
+        .plano-infor p strong{
+            font-size: 16px;
+
+        }
+        
+        #plano img{
+            width: 50px;
+            height: 50px;
+        }
+        .plano-infor strong{
+            font-size: 20px;
+        }
+        .plano-infor p{
+            font-size: 18px;
+        }
+    #plano a{
+        font-size: 18px;
+    }
+    
+    .finalizarpagamento{
+        width: 90%;
+        height: 25%;
+        font-size: 18px;
+    }
+    .cancelarpagamento{
+        width: 90%;
+        height: 25%;
+        font-size: 18px;
+    }
+
+}
+
