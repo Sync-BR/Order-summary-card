@@ -40,7 +40,6 @@
         display: flex;
         background-image: url(/src/img/pattern-background-mobile.svg);
         background-size: cover;
-        background-color: red;
         margin-top: 10vw;
 
     }
