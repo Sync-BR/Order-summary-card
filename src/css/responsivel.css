@@ -38,7 +38,11 @@
         width:90%;
         height: 40%;
         justify-content: space-around;
-        text-align: center;
+        
+    }
+    .plano-infor p strong{
+        font-size: 14px;
+
     }
 
 }
